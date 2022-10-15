@@ -10,11 +10,14 @@ function App() {
     <div className='container'>
       <div className="main_content">
         <Header />
-        <Routes>
-          <Route path='/' element={<MainPage />} />
-          <Route path='/news' element={<NewsPage />} />
-          <Route path='*' element={<NotFoundPage />} />
-        </Routes>
+        <main>
+          <Routes>
+            <Route path='/' element={<MainPage />} />
+            <Route path='/news' element={<NewsPage />} />
+            <Route path='*' element={<NotFoundPage />} />
+          </Routes>
+        </main>
+
       </div>
       <Footer />
     </div>

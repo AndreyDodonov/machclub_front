@@ -1,0 +1,14 @@
+.newsitem_container {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 380px;
+  height: 400px;
+}
+.newsitem_header {
+  font-size: 22px;
+}
+
+.newsitem_image {
+  width: 380px;
+  height: 200px;
+}
