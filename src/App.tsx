@@ -4,6 +4,7 @@ import { Header } from './components/Header/Header'
 import { Footer } from './components/Footer/Footer';
 import { NotFoundPage } from './page/NotFoundPage/NotFoundPage';
 import { Routes, Route } from 'react-router-dom';
+import { NewsMorePage } from './page/NewsMorePage/NewsMorePage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path='/' element={<MainPage />} />
             <Route path='/news' element={<NewsPage />} />
             <Route path='*' element={<NotFoundPage />} />
+            <Route path='/newsid' element={<NewsMorePage/>} />
           </Routes>
         </main>
 

@@ -12,3 +12,16 @@
   width: 380px;
   height: 200px;
 }
+
+.newsitem_link {
+  color: black;
+}
+
+/* MEDIA */
+
+@media (max-width: 768px) {
+  .newsitem_container {
+    width: 100wh;
+    margin: 0 auto;
+  }
+}
